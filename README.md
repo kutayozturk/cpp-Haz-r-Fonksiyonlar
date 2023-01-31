@@ -57,6 +57,7 @@ değişkenler de double türünde olmalıdır. Önemli matematiksel fonksiyonlar
 
 
 ***Önemli Bir Not ve Uyarı:***
+
 Trigonometrik fonksiyonlarda verilen ifadelerin değerini hesaplayabilmek için söz konusu değerleri
 radyana çevirmek gerekmektedir. Derece olarak verilen bir x ifadesinin radyan cinsinden değerini
 bulmak için ( $\pi \over 180$ x ) dönüşümü yapılmalıdır.
