@@ -8,28 +8,28 @@ programa dahil edilerek fonksiyon çağırılabilir.
 ### Karakter İşleme Fonksiyonları
 Karakterler üzerinde işlem yapan fonksiyonların bulunduğu kütüphanedir. Bu fonksiyonları
 kullanabilmek için cctype kütüphanesini programa tanıtmalıyız.
-
+```
 #include <cctype>
-
+```
 ### Dizgi İşleme Fonksiyonları
 Karakterlerin bir araya gelerek oluşturduğu diziler ‘dizgi’ olarak adlandırılır. Dizgiler üzerinde işlem
 yapan fonksiyonları kullanabilmek için cstring kütüphanesini programa tanıtmalıyız.
-
+```
 #include <cstring>
-
+```
 ### Zaman ve Tarih Fonksiyonları
 Zaman ve tarihle ilgili fonksiyonları kullanabilmek için ctime kütüphanesini programa tanıtmalıyız
-
+```
 #include <ctime>
-
+```
 ### Genel Amaçlı Fonksiyonlar
 Tamsayı mutlak değer [int abs(x)], bölme işleminde bölüm ve kalan [div(x,y)], rastgele değer üretme
 [randomize(x)], en küçük sayıyı bulma [min(x,y)], en büyük sayıyı bulma [max(x,y)] gibi çeşitli
 konularla ilgili fonksiyonlar cstdlib kütüphanesinde saklanırlar. Bu fonksiyonları kullanabilmek için
 cstdlib kütüphanesini programa tanıtmalıyız.
-
+```
 #include <cstdlib>
-
+```
 ## MATEMATİK FONKSİYONLARI
 Sayılar üzerinde matematiksel işlem yapan fonksiyonlar cmath kütüphanesinde saklanırlar.
 Matematiksel fonksiyonlar double türündedir. Bu yüzden bu fonksiyonlara parametre olarak verilen
